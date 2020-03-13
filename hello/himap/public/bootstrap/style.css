@@ -1,0 +1,28 @@
+#mapid{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+#searchbar{
+    font: bold 18px 'Lucida Console', Monaco, monospace;
+    z-index: 1000;
+    position: absolute;
+    left: 7%;
+    top: 4%;
+}
+#search{
+    width:400px; 
+    height:35px;
+}
+
+#searchbar .bouton{
+    height: 35px;
+}
+
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksVUFBVTtJQUNWLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsUUFBUTtJQUNSLFNBQVM7OztBQUdiO0FBQ0E7SUFDSSxtREFBbUQ7SUFDbkQsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixRQUFRO0lBQ1IsT0FBTztBQUNYO0FBQ0E7SUFDSSxXQUFXO0lBQ1gsV0FBVztBQUNmOztBQUVBO0lBQ0ksWUFBWTtBQUNoQiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFwaWR7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gICAgaGVpZ2h0OjEwMCU7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIGxlZnQ6IDBweDtcclxuICAgIFxyXG4gICAgXHJcbn1cclxuI3NlYXJjaGJhcntcclxuICAgIGZvbnQ6IGJvbGQgMThweCAnTHVjaWRhIENvbnNvbGUnLCBNb25hY28sIG1vbm9zcGFjZTtcclxuICAgIHotaW5kZXg6IDEwMDA7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBsZWZ0OiA3JTtcclxuICAgIHRvcDogNCU7XHJcbn1cclxuI3NlYXJjaHtcclxuICAgIHdpZHRoOjQwMHB4OyBcclxuICAgIGhlaWdodDozNXB4O1xyXG59XHJcblxyXG4jc2VhcmNoYmFyIC5ib3V0b257XHJcbiAgICBoZWlnaHQ6IDM1cHg7XHJcbn1cclxuXHJcbiJdLCJzb3VyY2VSb290IjoiIn0=*/
