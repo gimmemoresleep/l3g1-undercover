@@ -43,7 +43,7 @@ class SaisieAdresseType extends AbstractType
                     'Velo' => 'BICYCLE',
                     'Voiture' => 'CAR',
                     'Marche à pieds' => 'WALK',
-                    'Transports en communs' => 'TRANSIT',
+                    'Transports en communs' => 'WALK,TRANSIT',
 
                 ),
             ))
