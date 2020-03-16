@@ -1,7 +1,7 @@
 <!--
 * Page en HTML pour realiser l'affichage de l'application avec ses fonctionnalités
-* @author AIT HAMMOUDA Rayane ij07732 / ROUSSEL Elodie ii04564 / CHABOUR Lina ij00898
-* @version 1.3
+* @author AIT HAMMOUDA Rayane ij07732 / ROUSSEL Elodie ii04564
+* @version 1.2
 -->
 
 
@@ -14,6 +14,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+  	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
 	<link rel="stylesheet" href="{{ asset('build/app.css') }}" />
@@ -47,19 +48,27 @@
         {{form_widget(form.temps)}}
         {{form_widget(form.transport)}}
 
-	<button type="submit" ><i class="fas fa-search"></i> </button>
-
+	<button type="submit"><i onclick="submit()" class="fas fa-search" ></i> </button>
         {{form_end(form)}}
 
+  
 	</div>
+  <!-- HTML -->
+
 </div>
 
 
 </div>
+
+<span id = "temps" type="hidden">{{temps}}</span>
+<span id = "longitude" type="hidden">{{longitude}}</span>
+<span id = "latitude" type="hidden">{{latitude}}</span>
+<span id = "heure" type="hidden">{{heure}}</span>
+<span id = "date" type="hidden">{{date}}</span>
+<span id = "transport" type="hidden">{{transport}}</span>
 
 <!--script permettant l'ouverture et la fermeture du menu glissant-->
 <script>
-
 
 function openNav() {
 	document.getElementById("mapid").style.opacity= "0.4";
@@ -75,16 +84,14 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
     
 }
+
 </script>
-
-
-
-
 
 
 <!--script permettant l'affichage de la carte-->
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-
+<!--script permettant l'affichage de polygone-->
+<script type="text/javascript" src="{{ asset('js/Submit.js') }}"></script>
 
 
 </body>
